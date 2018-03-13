@@ -1,0 +1,126 @@
+# Site settings
+title: Data Science Africa
+location: Abuja, Nigeria (12 Nov - 16 Nov 2018)
+year: 2018
+email: info@datascienceafrica.org
+banner: abuja06.jpg
+description: > # this means to ignore newlines until "baseurl:"
+  The 2018 Data Science Africa summer school held at Dedan Kemathi
+  University of Technology.
+baseurl: "/dsa2018/abuja" # the subpath of your site, e.g. /blog/
+url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
+twitter_username: datsciAfrica
+logo_url: img/logo.png
+github_username:  datsciafrica
+
+other:
+  url: /dsa2018/
+  text: |
+    <div class="" style="
+                        font-weight: bold; 
+                        font-size: 18px;
+
+                        ">Kenya: Data Science Africa 2018</div>
+    <div>June 04<sup>th</sup>  - June 08<sup>st</sup> 2018</div>
+    <div>Nyeri, Kenya</div>
+
+previous:
+  url: /dsa2017/
+  text: | # From here to "school:"
+    <div class="" style="
+                        font-weight: bold; 
+                        font-size: 18px;
+
+                        ">Previous: Data Science Africa 2017</div>
+    <div>July 17<sup>th</sup>  - July 21<sup>st</sup> 2017</div>
+    <div>Arusha, Tanzania</div>
+
+social:
+  title: Social Event
+  text:
+  
+school:  
+  name: Data Science in Africa School
+  shortname: DSA2018
+  location: "African University of Science and Technology, Abuja"
+  googleformid: 
+  dates:		
+  - 2018-11-12
+  - 2018-11-14
+  registration:
+    deadline: 2018-11-01
+    open: True
+  draft: Y # set to Y if the programme is draft only.
+  roles:
+  - {type: Organizer, name: Prof. Amos David, url: "https://sites.google.com/site/cwamainadekut"}  
+  - {type: Organizer, name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
+  - {type: Organizer, name: Charles I. Saidu, url: "http://air.ug/~jquinn"}
+  - {type: Organizer, name: Samuel Grace Kehinde, url: "http://air.ug/~jquinn"}
+
+conference:
+  shortname: DSA2018
+  theme: 
+  hosts:
+  roles:
+  - {type: General Chair, name: Amos David, url: "", email: "david@aust.edu.ng"}
+  - {type: General Chair, name: Martin Mubangizi, url: "", email: "martin.mubangizi@one.un.org"}
+  name: Data Science in Africa Workshop 
+  location: "African University of Science and Technology, Abuja"
+  googleformid: 
+  year: 2018
+  month: June
+  registration:
+    deadline: 2018-05-11
+    open: False
+  # add other days here for them to appear
+    abstract: 
+  dates:	
+  - 2018-11-15
+  - 2018-11-16
+  draft: Y # set to Y if the programme is draft only.
+  organizers:
+  - {logo: sheffield.png, name: University of Sheffield}
+  - {logo: makerere.png, name: Makerere University}
+  - {logo: plklogo.png, name: Pulse Lab Kampala}
+  - {logo: dedan_kimathi.png, name: Dedan Kimathi University of Technology}
+  - {logo: nmaist-logo.png, name: Nelson Mandela African Institute of Science and Technology}
+  - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
+  goldsponsors: 
+  #- {logo: facebook.png, name: "Facebook"}  
+  #- {logo: google.png, name: "Google"}
+  - {logo: ARM-RGB-2015.png, name: "ARM", url: "https://www.arm.com/"}
+  - {logo: ARMmbedLogo2-1170x316.png, name: "ARM mbed", url: "https://www.mbed.com/en/"}
+  silversponsors:
+  - {logo: deepmind_logo.png, name: "DeepMind", url: "https://deepmind.com/"}
+  
+feedback: 
+
+
+
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+sass:
+    sass_dir: _scss
+
+# Build settings
+markdown: kramdown
+
+
+analytics:
+  google:
+    tracking_id: UA-80484960-1
+
+video:
+  height: 315
+  width: 560
+
+future: true
